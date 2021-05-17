@@ -1,29 +1,68 @@
-ul {
-    list-style: none;
-
-}
-/* styles for Li */
-li {
-    border-bottom: 1px solid black;
-    text-align: left;
-    padding-left: 10px;
-}
-/* styles for card titles  */
-.card-title {
-    font-size: 20px;
-}
-/* styles for img size  */
-img {
-    width: 100px;
-    height: 100px;
-}
-/* styles for five day forecast colors */
-.fiveDayColor {
-    padding: 20px;
-    background-color:red;
+Header {
+    background-color:lightcoral;
     color: white;
-    float: left;
-    margin: 10px;
-    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: lightgray;
+}
 
+.search {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+.h2 {
+    left-margin: -15px;
+}
+
+.row.content {
+    height: 550px;
+}
+
+input[type=text],.search-container button {
+    float: none;
+    display: inline;
+    text-align: left;
+}
+
+input[type=text] {
+    border: 1px solid #ccc;  
+}
+
+.forecast-day {
+    background-color:lightblue;
+    margin: 5px;
+    color: white;
+    padding: 2px;
+}
+
+#main {
+    background-color: #fff;
+    border: 2px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+.new-search {
+    background-color: #fff;
+    border: 2px solid;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;
+    padding: 5px
+}
+
+.yellow {
+    background-color: yellow;
+    padding: 5px
+}
+
+.red {
+    background-color: red;
+    padding: 5px
 }
